@@ -20,28 +20,28 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: 'Outfit', sans-serif;
-  overflow-x: hidden;
-  min-height: 100vh;
+  overflow: hidden;
+  height: 100vh;
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 2rem 1.5rem;
+  height: 100vh;
+  padding: 1.5rem;
   max-width: 800px;
   margin: 0 auto;
 }
 
 .minimal-game {
   width: 100%;
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   animation: fadeIn 0.8s ease-out;
-  padding-bottom: 5rem;
+  overflow: hidden; /* Ensure its children handle overflow */
 }
 
 @keyframes fadeIn {
@@ -83,15 +83,37 @@ h1 {
 
 .teams-wrapper {
   width: 100%;
-  margin-bottom: 3rem;
-  display: flex; flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 2rem;
+  display: flex; 
+  flex-direction: column;
   gap: 1.25rem;
+  padding-right: 0.5rem; /* Space for scrollbar */
+}
+
+/* Custom Scrollbar */
+.teams-wrapper::-webkit-scrollbar {
+  width: 4px;
+}
+
+.teams-wrapper::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.teams-wrapper::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 10px;
+}
+
+.teams-wrapper::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
 }
 
 .team-row {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   border-bottom: 1px solid var(--border);
   padding-bottom: 0.5rem;
   transition: all 0.3s ease;
@@ -101,11 +123,23 @@ h1 {
   border-bottom-color: var(--accent);
 }
 
+.team-info-main {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 70%;
+}
+
+.team-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
 .team-name {
   font-size: 1.15rem;
   font-weight: 400;
   color: var(--foreground);
-  max-width: 65%;
   line-height: 1.3;
 }
 
@@ -156,10 +190,7 @@ input::placeholder {
 .result.error { color: var(--error); }
 
 .stats-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -168,7 +199,7 @@ input::placeholder {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   padding: 1.5rem;
-  background: linear-gradient(transparent, var(--background) 40%);
+  margin-top: auto; /* Push to bottom if content is short */
 }
 
 .stats-footer span {
@@ -215,6 +246,6 @@ input::placeholder {
   .team-name { font-size: 1.5rem; }
   .team-years { font-size: 0.9rem; }
   input { font-size: 2rem; padding: 1rem 0; }
-  .stats-footer { position: fixed; bottom: 2rem; background: none; }
+  .stats-footer { margin-top: 2rem; background: none; }
   .player-details-clues span { font-size: 0.7rem; padding: 0.2rem 0.6rem; }
 }
