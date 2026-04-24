@@ -87,16 +87,38 @@ export default function Home() {
         </header>
 
         <div className="teams-wrapper">
-          {currentPlayer.teams.map((teamInfo, idx) => (
-            <div key={idx} className="team-row">
-              <span className="team-name">{teamInfo.team}</span>
-              <span className="team-years">
-                {teamInfo.years.length > 2 
-                  ? `${teamInfo.years[0]} — ${teamInfo.years[teamInfo.years.length - 1]}`
-                  : teamInfo.years.join(", ")}
-              </span>
-            </div>
-          ))}
+          {currentPlayer.teams.map((teamInfo, idx) => {
+            const formatYears = (years: string[]) => {
+              if (years.length === 0) return "";
+              const sorted = [...years].sort((a, b) => parseInt(a) - parseInt(b));
+              const ranges: string[] = [];
+              let start = sorted[0];
+              let prev = sorted[0];
+
+              for (let i = 1; i <= sorted.length; i++) {
+                const current = sorted[i];
+                if (current && parseInt(current) === parseInt(prev) + 1) {
+                  prev = current;
+                } else {
+                  if (start === prev) {
+                    ranges.push(start);
+                  } else {
+                    ranges.push(`${start} — ${prev}`);
+                  }
+                  start = current;
+                  prev = current;
+                }
+              }
+              return ranges.join(", ");
+            };
+
+            return (
+              <div key={idx} className="team-row">
+                <span className="team-name">{teamInfo.team}</span>
+                <span className="team-years">{formatYears(teamInfo.years)}</span>
+              </div>
+            );
+          })}
         </div>
 
         <form onSubmit={handleSubmit}>

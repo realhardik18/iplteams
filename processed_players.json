@@ -6,14 +6,9 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009"
                 ]
             },
@@ -26,7 +21,7 @@
                 ]
             }
         ],
-        "teamCount": 3
+        "teamCount": 2
     },
     {
         "name": "Mark Boucher",
@@ -35,14 +30,9 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009"
                 ]
             },
@@ -53,7 +43,7 @@
                 ]
             }
         ],
-        "teamCount": 3
+        "teamCount": 2
     },
     {
         "name": "Shivnarine Chanderpaul",
@@ -62,7 +52,7 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2008"
                 ]
@@ -77,14 +67,9 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009"
                 ]
             },
@@ -96,13 +81,13 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2013"
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Shreevats Goswami",
@@ -111,14 +96,9 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009"
                 ]
             },
@@ -145,7 +125,7 @@
                 ]
             }
         ],
-        "teamCount": 5
+        "teamCount": 4
     },
     {
         "name": "Wasim Jaffer",
@@ -154,19 +134,14 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Virat Kohli",
@@ -175,14 +150,9 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009",
                     "2011",
                     "2012",
@@ -196,19 +166,14 @@
                     "2020",
                     "2021",
                     "2022",
-                    "2023"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bengaluru",
-                "years": [
+                    "2023",
                     "2024",
                     "2025",
                     "2026"
                 ]
             }
         ],
-        "teamCount": 3
+        "teamCount": 1
     },
     {
         "name": "Misbah-ul-Haq",
@@ -217,7 +182,7 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2008"
                 ]
@@ -232,14 +197,9 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009"
                 ]
             },
@@ -250,7 +210,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2012",
                     "2014"
@@ -263,7 +223,7 @@
                 ]
             }
         ],
-        "teamCount": 5
+        "teamCount": 4
     },
     {
         "name": "Cameron White",
@@ -272,14 +232,9 @@
         "bowling": "Legbreak Googly",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009"
                 ]
             },
@@ -297,7 +252,7 @@
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Sunil Joshi",
@@ -306,19 +261,14 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Jacques Kallis",
@@ -327,14 +277,9 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009"
                 ]
             },
@@ -348,7 +293,7 @@
                 ]
             }
         ],
-        "teamCount": 3
+        "teamCount": 2
     },
     {
         "name": "Ashley Noffke",
@@ -357,7 +302,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2008"
                 ]
@@ -372,7 +317,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2008"
                 ]
@@ -387,14 +332,9 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009"
                 ]
             },
@@ -405,7 +345,7 @@
                 ]
             }
         ],
-        "teamCount": 3
+        "teamCount": 2
     },
     {
         "name": "KP Appanna",
@@ -414,21 +354,16 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009",
                     "2012",
                     "2013"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Zaheer Khan",
@@ -437,9 +372,12 @@
         "bowling": "Left arm Fast medium",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
+                    "2008",
+                    "2011",
+                    "2012",
+                    "2013"
                 ]
             },
             {
@@ -451,15 +389,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
-                "years": [
-                    "2011",
-                    "2012",
-                    "2013"
-                ]
-            },
-            {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2015",
                     "2016",
@@ -467,7 +397,7 @@
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Praveen Kumar",
@@ -476,19 +406,14 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009"
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012",
@@ -515,7 +440,7 @@
                 ]
             }
         ],
-        "teamCount": 6
+        "teamCount": 5
     },
     {
         "name": "Anil Kumble",
@@ -524,19 +449,14 @@
         "bowling": "Legbreak Googly",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Dale Steyn",
@@ -545,14 +465,9 @@
         "bowling": "Right arm Fast",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009",
                     "2019",
                     "2020"
@@ -580,7 +495,7 @@
                 ]
             }
         ],
-        "teamCount": 5
+        "teamCount": 4
     },
     {
         "name": "Vinay Kumar",
@@ -589,14 +504,9 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009",
                     "2012",
                     "2013"
@@ -624,7 +534,7 @@
                 ]
             }
         ],
-        "teamCount": 5
+        "teamCount": 4
     },
     {
         "name": "Nathan Bracken",
@@ -633,19 +543,14 @@
         "bowling": "Left arm Fast medium",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Neravanda Aiyappa",
@@ -654,7 +559,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2008"
                 ]
@@ -669,19 +574,14 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Devraj Patil",
@@ -690,19 +590,14 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Bangalore Royal Challengers",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2008"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
+                    "2008",
                     "2009"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "MS Dhoni",
@@ -785,7 +680,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012",
@@ -813,7 +708,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2015"
                 ]
@@ -909,7 +804,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2013"
                 ]
@@ -950,7 +845,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2014",
                     "2018",
@@ -1034,7 +929,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2018",
                     "2019"
@@ -1094,13 +989,13 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2014"
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2015"
                 ]
@@ -1182,7 +1077,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2014"
                 ]
@@ -1212,7 +1107,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2013"
                 ]
@@ -1244,7 +1139,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2014"
                 ]
@@ -1280,7 +1175,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2012",
                     "2013",
@@ -1455,7 +1350,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012",
@@ -1559,7 +1454,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011",
                     "2012",
@@ -1709,7 +1604,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2013"
                 ]
@@ -1842,7 +1737,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009",
@@ -1853,7 +1748,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2014",
                     "2015"
@@ -1869,7 +1764,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009",
@@ -1877,7 +1772,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012",
@@ -1902,9 +1797,12 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
-                    "2008"
+                    "2008",
+                    "2019",
+                    "2020",
+                    "2021"
                 ]
             },
             {
@@ -1933,14 +1831,6 @@
                 ]
             },
             {
-                "team": "Delhi Capitals",
-                "years": [
-                    "2019",
-                    "2020",
-                    "2021"
-                ]
-            },
-            {
                 "team": "Punjab Kings",
                 "years": [
                     "2022",
@@ -1949,7 +1839,7 @@
                 ]
             }
         ],
-        "teamCount": 6
+        "teamCount": 5
     },
     {
         "name": "Gautam Gambhir",
@@ -1958,7 +1848,7 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009",
@@ -1988,7 +1878,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009",
@@ -1997,7 +1887,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011"
                 ]
@@ -2010,11 +1900,12 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2015",
                     "2022",
-                    "2023"
+                    "2023",
+                    "2024"
                 ]
             },
             {
@@ -2032,15 +1923,9 @@
                     "2020",
                     "2021"
                 ]
-            },
-            {
-                "team": "Royal Challengers Bengaluru",
-                "years": [
-                    "2024"
-                ]
             }
         ],
-        "teamCount": 7
+        "teamCount": 6
     },
     {
         "name": "Manoj Tiwary",
@@ -2049,7 +1934,7 @@
         "bowling": "Legbreak Googly",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009",
@@ -2073,7 +1958,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2018"
                 ]
@@ -2088,7 +1973,7 @@
         "bowling": "Right arm Bowler",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009",
@@ -2106,7 +1991,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009",
@@ -2150,7 +2035,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009",
@@ -2158,7 +2043,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012",
@@ -2175,7 +2060,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009",
@@ -2192,7 +2077,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009",
@@ -2216,7 +2101,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009",
@@ -2248,7 +2133,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009",
@@ -2267,7 +2152,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008"
                 ]
@@ -2282,7 +2167,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008"
                 ]
@@ -2297,14 +2182,14 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012",
@@ -2321,7 +2206,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008"
                 ]
@@ -2336,7 +2221,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009"
@@ -2352,7 +2237,7 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009",
@@ -2360,7 +2245,10 @@
                     "2015",
                     "2016",
                     "2017",
-                    "2018"
+                    "2018",
+                    "2019",
+                    "2020",
+                    "2021"
                 ]
             },
             {
@@ -2390,14 +2278,6 @@
                 ]
             },
             {
-                "team": "Delhi Capitals",
-                "years": [
-                    "2019",
-                    "2020",
-                    "2021"
-                ]
-            },
-            {
                 "team": "Lucknow Super Giants",
                 "years": [
                     "2023",
@@ -2405,7 +2285,7 @@
                 ]
             }
         ],
-        "teamCount": 7
+        "teamCount": 6
     },
     {
         "name": "Mohammad Asif",
@@ -2414,7 +2294,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008"
                 ]
@@ -2429,7 +2309,7 @@
         "bowling": "Left arm Medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2008",
                     "2009",
@@ -2474,7 +2354,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009",
@@ -2491,13 +2371,13 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2014"
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2015"
                 ]
@@ -2525,7 +2405,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009",
@@ -2539,7 +2419,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2012",
                     "2013"
@@ -2555,7 +2435,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009",
@@ -2572,7 +2452,7 @@
         "bowling": "Left arm Wrist spin",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009"
@@ -2588,7 +2468,7 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009"
@@ -2604,7 +2484,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009",
@@ -2628,7 +2508,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009",
@@ -2636,7 +2516,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012"
@@ -2652,7 +2532,7 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2011",
@@ -2670,7 +2550,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009",
@@ -2700,7 +2580,7 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008"
                 ]
@@ -2715,7 +2595,7 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009"
@@ -2729,7 +2609,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2013"
                 ]
@@ -2744,7 +2624,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009",
@@ -2773,7 +2653,7 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009",
@@ -2812,12 +2692,15 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2014",
                     "2015",
-                    "2016"
+                    "2016",
+                    "2022",
+                    "2023",
+                    "2024"
                 ]
             },
             {
@@ -2831,17 +2714,9 @@
                 "years": [
                     "2017"
                 ]
-            },
-            {
-                "team": "Punjab Kings",
-                "years": [
-                    "2022",
-                    "2023",
-                    "2024"
-                ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "James Hopes",
@@ -2850,7 +2725,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009",
@@ -2858,7 +2733,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011"
                 ]
@@ -2879,7 +2754,7 @@
         "bowling": "Left arm Medium fast",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009",
@@ -2887,7 +2762,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011",
                     "2012",
@@ -2928,7 +2803,7 @@
         "bowling": "Right arm Fast",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009",
@@ -2953,7 +2828,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008"
                 ]
@@ -2974,7 +2849,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009",
@@ -2998,7 +2873,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009",
@@ -3028,7 +2903,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009"
@@ -3044,7 +2919,7 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008"
                 ]
@@ -3059,7 +2934,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008"
                 ]
@@ -3074,7 +2949,7 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009"
@@ -3090,7 +2965,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009"
@@ -3106,7 +2981,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2008",
                     "2009"
@@ -3247,7 +3122,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018"
                 ]
@@ -3293,7 +3168,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2014",
                     "2015",
@@ -3381,7 +3256,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012",
@@ -3389,7 +3264,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2014"
                 ]
@@ -3440,7 +3315,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012",
@@ -3452,21 +3327,16 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2018",
                     "2019",
-                    "2020"
-                ]
-            },
-            {
-                "team": "Punjab Kings",
-                "years": [
+                    "2020",
                     "2021"
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "David Hussey",
@@ -3482,7 +3352,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012",
@@ -3521,7 +3391,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2015",
                     "2016",
@@ -3564,7 +3434,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014"
                 ]
@@ -3593,7 +3463,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011",
                     "2012",
@@ -3618,7 +3488,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011"
                 ]
@@ -3631,7 +3501,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2014",
                     "2015"
@@ -3674,13 +3544,13 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2013"
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2014"
                 ]
@@ -3701,7 +3571,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2013",
                     "2014"
@@ -3720,7 +3590,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2022",
                     "2023"
@@ -3788,7 +3658,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2017"
                 ]
@@ -3856,7 +3726,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2009"
                 ]
@@ -3956,7 +3826,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012",
@@ -3979,7 +3849,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009"
                 ]
@@ -4178,7 +4048,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012",
@@ -4186,7 +4056,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014",
                     "2015"
@@ -4214,7 +4084,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009"
                 ]
@@ -4305,7 +4175,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009"
                 ]
@@ -4345,7 +4215,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012"
@@ -4526,7 +4396,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2009",
                     "2010",
@@ -4585,7 +4455,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011"
                 ]
@@ -4606,7 +4476,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2016",
                     "2017"
@@ -4700,7 +4570,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2014",
                     "2015"
@@ -4756,13 +4626,13 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2010"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012"
@@ -4799,7 +4669,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2009"
                 ]
@@ -5051,7 +4921,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2016",
                     "2017"
@@ -5082,7 +4952,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012",
@@ -5125,7 +4995,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011",
                     "2012",
@@ -5158,7 +5028,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009",
                     "2013"
@@ -5330,7 +5200,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2014",
                     "2015"
@@ -5364,13 +5234,13 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014"
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2015",
                     "2016",
@@ -5424,7 +5294,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2010"
                 ]
@@ -5439,7 +5309,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2015"
                 ]
@@ -5518,7 +5388,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2012",
                     "2013"
@@ -5547,7 +5417,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012",
@@ -5637,7 +5507,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2009"
                 ]
@@ -5671,13 +5541,16 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2009",
                     "2010",
                     "2011",
                     "2012",
-                    "2013"
+                    "2013",
+                    "2022",
+                    "2023",
+                    "2024"
                 ]
             },
             {
@@ -5692,17 +5565,9 @@
                     "2020",
                     "2021"
                 ]
-            },
-            {
-                "team": "Delhi Capitals",
-                "years": [
-                    "2022",
-                    "2023",
-                    "2024"
-                ]
             }
         ],
-        "teamCount": 3
+        "teamCount": 2
     },
     {
         "name": "Paul Collingwood",
@@ -5711,7 +5576,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2009",
                     "2010"
@@ -5734,7 +5599,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2009",
                     "2010",
@@ -5742,7 +5607,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2012",
                     "2013"
@@ -5758,14 +5623,14 @@
         "bowling": "Left arm Fast",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2009",
                     "2010"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012"
@@ -5787,7 +5652,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2009",
                     "2010",
@@ -5805,13 +5670,14 @@
         "bowling": "Right arm Fast",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2009",
                     "2010",
                     "2011",
                     "2012",
-                    "2013"
+                    "2013",
+                    "2021"
                 ]
             },
             {
@@ -5826,17 +5692,11 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018",
                     "2019",
                     "2020"
-                ]
-            },
-            {
-                "team": "Delhi Capitals",
-                "years": [
-                    "2021"
                 ]
             },
             {
@@ -5846,7 +5706,7 @@
                 ]
             }
         ],
-        "teamCount": 5
+        "teamCount": 4
     },
     {
         "name": "Ravikant Shukla",
@@ -5855,7 +5715,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2009"
                 ]
@@ -5870,13 +5730,13 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2009"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012"
@@ -5892,7 +5752,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2009",
                     "2010"
@@ -5914,7 +5774,7 @@
         "bowling": "Left arm Fast medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2009",
                     "2010"
@@ -5930,7 +5790,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2009",
                     "2010"
@@ -5946,7 +5806,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2009"
                 ]
@@ -5961,7 +5821,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2009",
                     "2010",
@@ -5978,7 +5838,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2016"
                 ]
@@ -5993,7 +5853,7 @@
         "bowling": "Right arm Fast",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2009"
                 ]
@@ -6056,7 +5916,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2010"
                 ]
@@ -6068,7 +5928,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2013"
                 ]
@@ -6083,19 +5943,14 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
-                "years": [
-                    "2019"
-                ]
-            },
-            {
                 "team": "Punjab Kings",
                 "years": [
+                    "2019",
                     "2021"
                 ]
             }
         ],
-        "teamCount": 7
+        "teamCount": 6
     },
     {
         "name": "Angelo Mathews",
@@ -6119,7 +5974,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2015",
                     "2017"
@@ -6141,7 +5996,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2014",
                     "2015",
@@ -6172,7 +6027,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012"
@@ -6254,7 +6109,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014",
                     "2015",
@@ -6279,7 +6134,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011"
                 ]
@@ -6353,7 +6208,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011",
                     "2012",
@@ -6401,7 +6256,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012",
@@ -6424,7 +6279,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012"
@@ -6455,7 +6310,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2013"
                 ]
@@ -6738,7 +6593,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009"
                 ]
@@ -6753,7 +6608,7 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009",
                     "2011",
@@ -6761,7 +6616,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2013",
                     "2015"
@@ -6783,7 +6638,7 @@
         "bowling": "Legbreak Googly",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009"
                 ]
@@ -6812,7 +6667,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009"
                 ]
@@ -6824,7 +6679,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2012",
                     "2013",
@@ -6853,7 +6708,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009"
                 ]
@@ -6868,7 +6723,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009",
                     "2011",
@@ -6885,7 +6740,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009",
                     "2016",
@@ -6894,7 +6749,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2010",
                     "2013",
@@ -6931,7 +6786,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009"
                 ]
@@ -6944,7 +6799,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2013"
                 ]
@@ -6959,13 +6814,13 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009"
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011",
                     "2012",
@@ -6982,7 +6837,7 @@
         "bowling": "Left arm Medium fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009",
                     "2011",
@@ -7003,9 +6858,11 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2009"
+                    "2009",
+                    "2025",
+                    "2026"
                 ]
             },
             {
@@ -7031,16 +6888,9 @@
                     "2023",
                     "2024"
                 ]
-            },
-            {
-                "team": "Royal Challengers Bengaluru",
-                "years": [
-                    "2025",
-                    "2026"
-                ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Abhimanyu Mithun",
@@ -7049,7 +6899,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009",
                     "2011",
@@ -7080,11 +6930,12 @@
         "bowling": "Legbreak Googly",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009",
                     "2022",
-                    "2023"
+                    "2023",
+                    "2024"
                 ]
             },
             {
@@ -7110,15 +6961,9 @@
                     "2019",
                     "2021"
                 ]
-            },
-            {
-                "team": "Royal Challengers Bengaluru",
-                "years": [
-                    "2024"
-                ]
             }
         ],
-        "teamCount": 5
+        "teamCount": 4
     },
     {
         "name": "Rangaraj Suthesh",
@@ -7127,7 +6972,7 @@
         "bowling": "Left arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009"
                 ]
@@ -7142,7 +6987,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009"
                 ]
@@ -7157,7 +7002,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009"
                 ]
@@ -7172,7 +7017,7 @@
         "bowling": "Left arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009"
                 ]
@@ -7187,7 +7032,7 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009"
                 ]
@@ -7202,7 +7047,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2009"
                 ]
@@ -7271,7 +7116,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2014",
                     "2015"
@@ -7474,7 +7319,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014"
                 ]
@@ -7510,7 +7355,7 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2010"
                 ]
@@ -7539,7 +7384,7 @@
         "bowling": "Left arm Medium fast",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2010",
                     "2014"
@@ -7554,7 +7399,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2023"
                 ]
@@ -7569,7 +7414,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2010"
                 ]
@@ -7584,7 +7429,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2010"
                 ]
@@ -7599,7 +7444,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2010"
                 ]
@@ -7614,7 +7459,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2010"
                 ]
@@ -7629,7 +7474,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2010",
                     "2011",
@@ -7656,7 +7501,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2010"
                 ]
@@ -7671,7 +7516,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2010",
                     "2011",
@@ -7688,7 +7533,7 @@
         "bowling": "Left arm Fast medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2010",
                     "2011",
@@ -7705,7 +7550,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2010"
                 ]
@@ -7783,7 +7628,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011",
                     "2012",
@@ -7791,7 +7636,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2014",
                     "2015",
@@ -7799,7 +7644,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2017"
                 ]
@@ -7961,7 +7806,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2017"
                 ]
@@ -8010,7 +7855,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2012",
                     "2013"
@@ -8041,7 +7886,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2014",
                     "2015",
@@ -8115,7 +7960,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014"
                 ]
@@ -8168,7 +8013,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011",
                     "2012"
@@ -8200,13 +8045,13 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2018"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2020"
                 ]
@@ -8436,15 +8281,10 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
-                "years": [
-                    "2022",
-                    "2023"
-                ]
-            },
-            {
                 "team": "Royal Challengers Bengaluru",
                 "years": [
+                    "2022",
+                    "2023",
                     "2024"
                 ]
             },
@@ -8455,7 +8295,7 @@
                 ]
             }
         ],
-        "teamCount": 6
+        "teamCount": 5
     },
     {
         "name": "Kuthethurshri Vasudevadas",
@@ -8495,7 +8335,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2017"
                 ]
@@ -8563,7 +8403,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018",
                     "2019"
@@ -8650,7 +8490,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2013",
                     "2021"
@@ -8663,7 +8503,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2018"
                 ]
@@ -8758,7 +8598,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011",
                     "2012"
@@ -8774,7 +8614,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011",
                     "2012"
@@ -8790,7 +8630,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011",
                     "2012",
@@ -8820,20 +8660,15 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
-                "years": [
-                    "2011",
-                    "2012"
-                ]
-            },
-            {
                 "team": "Delhi Capitals",
                 "years": [
+                    "2011",
+                    "2012",
                     "2019"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Prashant Naik",
@@ -8842,7 +8677,7 @@
         "bowling": "Legbreak Googly",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011",
                     "2012"
@@ -8858,7 +8693,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011"
                 ]
@@ -8873,7 +8708,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011"
                 ]
@@ -8896,7 +8731,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011"
                 ]
@@ -8918,7 +8753,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011"
                 ]
@@ -8933,7 +8768,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011",
                     "2012",
@@ -8969,7 +8804,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011",
                     "2012"
@@ -8985,7 +8820,7 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2011"
                 ]
@@ -9000,7 +8835,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012",
@@ -9050,7 +8885,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012",
@@ -9067,7 +8902,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012"
@@ -9083,29 +8918,24 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012",
                     "2013",
                     "2014",
                     "2019",
-                    "2020"
+                    "2020",
+                    "2021"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2015",
                     "2016",
                     "2017",
                     "2018"
-                ]
-            },
-            {
-                "team": "Punjab Kings",
-                "years": [
-                    "2021"
                 ]
             },
             {
@@ -9121,7 +8951,7 @@
                 ]
             }
         ],
-        "teamCount": 5
+        "teamCount": 4
     },
     {
         "name": "Bhargav Bhatt",
@@ -9130,7 +8960,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012",
@@ -9147,7 +8977,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012"
@@ -9163,7 +8993,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2011",
                     "2012"
@@ -9367,7 +9197,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2012",
                     "2013"
@@ -9423,7 +9253,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2017"
                 ]
@@ -9495,7 +9325,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014",
                     "2015",
@@ -9505,15 +9335,10 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
-                "years": [
-                    "2019",
-                    "2020"
-                ]
-            },
-            {
                 "team": "Punjab Kings",
                 "years": [
+                    "2019",
+                    "2020",
                     "2021"
                 ]
             },
@@ -9538,7 +9363,7 @@
                 ]
             }
         ],
-        "teamCount": 7
+        "teamCount": 6
     },
     {
         "name": "James Pattinson",
@@ -9578,13 +9403,13 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2013"
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014",
                     "2015"
@@ -9744,7 +9569,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2014",
                     "2015",
@@ -9791,7 +9616,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2016"
                 ]
@@ -9902,7 +9727,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2017"
                 ]
@@ -9962,7 +9787,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2012"
                 ]
@@ -10084,7 +9909,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2014"
                 ]
@@ -10146,7 +9971,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2016",
                     "2017"
@@ -10272,15 +10097,16 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012",
-                    "2013"
+                    "2013",
+                    "2025"
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014",
                     "2015",
@@ -10294,16 +10120,11 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2018",
                     "2019",
-                    "2020"
-                ]
-            },
-            {
-                "team": "Punjab Kings",
-                "years": [
+                    "2020",
                     "2021",
                     "2022"
                 ]
@@ -10314,15 +10135,9 @@
                     "2023",
                     "2024"
                 ]
-            },
-            {
-                "team": "Royal Challengers Bengaluru",
-                "years": [
-                    "2025"
-                ]
             }
         ],
-        "teamCount": 7
+        "teamCount": 5
     },
     {
         "name": "Rilee Rossouw",
@@ -10331,7 +10146,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012",
@@ -10361,7 +10176,7 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011"
                 ]
@@ -10376,7 +10191,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011"
                 ]
@@ -10391,7 +10206,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011"
                 ]
@@ -10406,7 +10221,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011"
                 ]
@@ -10421,7 +10236,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012"
@@ -10437,7 +10252,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012"
@@ -10453,7 +10268,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2011",
                     "2012",
@@ -10497,7 +10312,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2014"
                 ]
@@ -10642,7 +10457,7 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2012"
                 ]
@@ -10657,7 +10472,7 @@
         "bowling": "Left arm Wrist spin",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2012",
                     "2013"
@@ -10673,7 +10488,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2012",
                     "2013"
@@ -10695,7 +10510,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2012",
                     "2018"
@@ -10708,37 +10523,27 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2014",
                     "2015",
                     "2016",
                     "2017",
-                    "2020"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
-                    "2021",
-                    "2022",
-                    "2023"
+                    "2020",
+                    "2025"
                 ]
             },
             {
                 "team": "Royal Challengers Bengaluru",
                 "years": [
+                    "2021",
+                    "2022",
+                    "2023",
                     "2024"
-                ]
-            },
-            {
-                "team": "Punjab Kings",
-                "years": [
-                    "2025"
                 ]
             }
         ],
-        "teamCount": 6
+        "teamCount": 4
     },
     {
         "name": "Andre Russell",
@@ -10747,7 +10552,7 @@
         "bowling": "Right arm Fast",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2012",
                     "2013"
@@ -10779,7 +10584,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2012"
                 ]
@@ -10794,7 +10599,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2012",
                     "2013",
@@ -10809,7 +10614,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2017",
                     "2018",
@@ -10833,7 +10638,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2012"
                 ]
@@ -10848,7 +10653,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2012"
                 ]
@@ -10863,7 +10668,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2012"
                 ]
@@ -10878,7 +10683,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2012",
                     "2013",
@@ -10889,13 +10694,13 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2018"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2019",
                     "2020"
@@ -10923,7 +10728,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2012",
                     "2013"
@@ -10945,7 +10750,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2012"
                 ]
@@ -10987,7 +10792,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2012",
                     "2016"
@@ -11009,7 +10814,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2012",
                     "2013",
@@ -11049,7 +10854,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2016",
                     "2017"
@@ -11267,7 +11072,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2014",
                     "2015",
@@ -11296,7 +11101,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2013"
                 ]
@@ -11334,7 +11139,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2017"
                 ]
@@ -11468,7 +11273,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2012",
                     "2013"
@@ -11483,14 +11288,16 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2016",
-                    "2017"
+                    "2017",
+                    "2025",
+                    "2026"
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2018",
                     "2019",
@@ -11502,16 +11309,9 @@
                 "years": [
                     "2021"
                 ]
-            },
-            {
-                "team": "Delhi Capitals",
-                "years": [
-                    "2025",
-                    "2026"
-                ]
             }
         ],
-        "teamCount": 6
+        "teamCount": 5
     },
     {
         "name": "Harshal Patel",
@@ -11520,7 +11320,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2012",
                     "2013",
@@ -11534,14 +11334,9 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
-                "years": [
-                    "2018"
-                ]
-            },
-            {
                 "team": "Delhi Capitals",
                 "years": [
+                    "2018",
                     "2019",
                     "2020"
                 ]
@@ -11560,7 +11355,7 @@
                 ]
             }
         ],
-        "teamCount": 5
+        "teamCount": 4
     },
     {
         "name": "S Thiyagarajan",
@@ -11569,7 +11364,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2012"
                 ]
@@ -11584,7 +11379,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2012",
                     "2013",
@@ -11712,27 +11507,22 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2016",
                     "2017",
-                    "2018"
-                ]
-            },
-            {
-                "team": "Delhi Capitals",
-                "years": [
+                    "2018",
                     "2019"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2020"
                 ]
             }
         ],
-        "teamCount": 5
+        "teamCount": 4
     },
     {
         "name": "Vijay Shankar",
@@ -11759,7 +11549,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2018"
                 ]
@@ -11839,7 +11629,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2018",
                     "2019"
@@ -11891,7 +11681,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2016",
                     "2017",
@@ -11922,7 +11712,7 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2013"
                 ]
@@ -11937,7 +11727,7 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2013"
                 ]
@@ -11952,7 +11742,7 @@
         "bowling": "Left arm Medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2013"
                 ]
@@ -11967,7 +11757,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2013"
                 ]
@@ -11982,7 +11772,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2013",
                     "2014",
@@ -11992,7 +11782,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018"
                 ]
@@ -12022,7 +11812,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2013"
                 ]
@@ -12037,13 +11827,13 @@
         "bowling": "Left arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2013"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2017",
                     "2018"
@@ -12059,13 +11849,14 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2013",
                     "2014",
                     "2015",
                     "2016",
-                    "2017"
+                    "2017",
+                    "2022"
                 ]
             },
             {
@@ -12078,12 +11869,6 @@
                 ]
             },
             {
-                "team": "Punjab Kings",
-                "years": [
-                    "2022"
-                ]
-            },
-            {
                 "team": "Rajasthan Royals",
                 "years": [
                     "2023",
@@ -12093,7 +11878,7 @@
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Sachithra Senanayake",
@@ -12140,7 +11925,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014",
                     "2015",
@@ -12154,7 +11939,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018",
                     "2019"
@@ -12183,7 +11968,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2015"
                 ]
@@ -12216,7 +12001,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2014",
                     "2015",
@@ -12304,7 +12089,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2016"
                 ]
@@ -12366,7 +12151,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2016",
                     "2020",
@@ -12419,7 +12204,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2016",
                     "2017",
@@ -12456,7 +12241,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2016",
                     "2017"
@@ -12507,7 +12292,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2013"
                 ]
@@ -12532,7 +12317,7 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2013",
                     "2016",
@@ -12547,16 +12332,11 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2018",
                     "2019",
-                    "2020"
-                ]
-            },
-            {
-                "team": "Punjab Kings",
-                "years": [
+                    "2020",
                     "2021"
                 ]
             },
@@ -12576,7 +12356,7 @@
                 ]
             }
         ],
-        "teamCount": 6
+        "teamCount": 5
     },
     {
         "name": "Chris Barnwell",
@@ -12585,7 +12365,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2013"
                 ]
@@ -12600,7 +12380,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2013",
                     "2014"
@@ -12616,7 +12396,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2013",
                     "2014",
@@ -12659,7 +12439,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014",
                     "2015",
@@ -12668,7 +12448,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018"
                 ]
@@ -12713,13 +12493,13 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2015"
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2017"
                 ]
@@ -12779,7 +12559,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2017"
                 ]
@@ -12800,13 +12580,13 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2019"
                 ]
@@ -12821,7 +12601,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014"
                 ]
@@ -12833,7 +12613,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2020"
                 ]
@@ -12860,7 +12640,7 @@
         "bowling": "Legbreak Googly",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014",
                     "2015",
@@ -12891,7 +12671,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014"
                 ]
@@ -12906,18 +12686,13 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2014",
                     "2015",
                     "2016",
                     "2017",
-                    "2018"
-                ]
-            },
-            {
-                "team": "Delhi Capitals",
-                "years": [
+                    "2018",
                     "2019"
                 ]
             },
@@ -12940,7 +12715,7 @@
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Shardul Thakur",
@@ -12949,7 +12724,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2014",
                     "2015",
@@ -13005,7 +12780,7 @@
         "bowling": "Left arm Fast medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2014",
                     "2015"
@@ -13027,7 +12802,7 @@
         "bowling": "Legbreak Googly",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2014",
                     "2015"
@@ -13043,7 +12818,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2014",
                     "2015"
@@ -13069,7 +12844,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2017"
                 ]
@@ -13154,13 +12929,13 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2017"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018"
                 ]
@@ -13229,21 +13004,16 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
-                "years": [
-                    "2022",
-                    "2023"
-                ]
-            },
-            {
                 "team": "Royal Challengers Bengaluru",
                 "years": [
+                    "2022",
+                    "2023",
                     "2025",
                     "2026"
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Krishmar Santokie",
@@ -13322,14 +13092,9 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
-                "years": [
-                    "2020"
-                ]
-            },
-            {
                 "team": "Punjab Kings",
                 "years": [
+                    "2020",
                     "2021"
                 ]
             },
@@ -13348,7 +13113,7 @@
                 ]
             }
         ],
-        "teamCount": 6
+        "teamCount": 5
     },
     {
         "name": "Rahul Tewatia",
@@ -13366,20 +13131,15 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2017"
                 ]
             },
             {
-                "team": "Delhi Daredevils",
-                "years": [
-                    "2018"
-                ]
-            },
-            {
                 "team": "Delhi Capitals",
                 "years": [
+                    "2018",
                     "2019"
                 ]
             },
@@ -13394,7 +13154,7 @@
                 ]
             }
         ],
-        "teamCount": 5
+        "teamCount": 4
     },
     {
         "name": "Nic Maddinson",
@@ -13403,7 +13163,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2014",
                     "2015"
@@ -13419,7 +13179,7 @@
         "bowling": "Left arm Fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2014",
                     "2015",
@@ -13498,14 +13258,14 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2016",
                     "2017"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2022"
                 ]
@@ -13526,7 +13286,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2016",
                     "2017"
@@ -13555,7 +13315,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2018",
                     "2019"
@@ -13584,21 +13344,16 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Delhi Daredevils",
-                "years": [
-                    "2015"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bangalore",
-                "years": [
-                    "2021"
-                ]
-            },
-            {
                 "team": "Delhi Capitals",
                 "years": [
+                    "2015",
                     "2022"
+                ]
+            },
+            {
+                "team": "Royal Challengers Bengaluru",
+                "years": [
+                    "2021"
                 ]
             },
             {
@@ -13614,7 +13369,7 @@
                 ]
             }
         ],
-        "teamCount": 5
+        "teamCount": 4
     },
     {
         "name": "Travis Head",
@@ -13623,13 +13378,13 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2015"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2016",
                     "2017"
@@ -13653,17 +13408,12 @@
         "bowling": "Right arm Offbreak, Legbreak Googly",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2015",
                     "2016",
                     "2017",
-                    "2018"
-                ]
-            },
-            {
-                "team": "Delhi Capitals",
-                "years": [
+                    "2018",
                     "2019",
                     "2020",
                     "2021"
@@ -13685,7 +13435,7 @@
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Marcus Stoinis",
@@ -13694,30 +13444,27 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
-                    "2015"
+                    "2015",
+                    "2020",
+                    "2021"
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2016",
                     "2017",
-                    "2018"
+                    "2018",
+                    "2025",
+                    "2026"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2019"
-                ]
-            },
-            {
-                "team": "Delhi Capitals",
-                "years": [
-                    "2020",
-                    "2021"
                 ]
             },
             {
@@ -13727,16 +13474,9 @@
                     "2023",
                     "2024"
                 ]
-            },
-            {
-                "team": "Punjab Kings",
-                "years": [
-                    "2025",
-                    "2026"
-                ]
             }
         ],
-        "teamCount": 6
+        "teamCount": 4
     },
     {
         "name": "KK Jiyas",
@@ -13745,7 +13485,7 @@
         "bowling": "Left arm Wrist spin",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2015"
                 ]
@@ -13760,7 +13500,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2015"
                 ]
@@ -13775,7 +13515,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2015"
                 ]
@@ -13790,7 +13530,7 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2015",
                     "2016",
@@ -13814,7 +13554,7 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2015"
                 ]
@@ -13851,7 +13591,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2016",
                     "2017"
@@ -13954,19 +13694,14 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
-                "years": [
-                    "2018"
-                ]
-            },
-            {
                 "team": "Delhi Capitals",
                 "years": [
+                    "2018",
                     "2019"
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Nitish Rana",
@@ -14075,7 +13810,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2020"
                 ]
@@ -14119,7 +13854,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2016",
                     "2017",
@@ -14149,7 +13884,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2018"
                 ]
@@ -14185,7 +13920,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2015"
                 ]
@@ -14200,7 +13935,7 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2015",
                     "2016",
@@ -14209,15 +13944,10 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
-                "years": [
-                    "2019",
-                    "2020"
-                ]
-            },
-            {
                 "team": "Punjab Kings",
                 "years": [
+                    "2019",
+                    "2020",
                     "2021"
                 ]
             },
@@ -14235,7 +13965,7 @@
                 ]
             }
         ],
-        "teamCount": 5
+        "teamCount": 4
     },
     {
         "name": "Sean Abbott",
@@ -14244,7 +13974,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2015"
                 ]
@@ -14265,7 +13995,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2015",
                     "2016"
@@ -14287,7 +14017,7 @@
         "bowling": "Right arm Fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2015",
                     "2016",
@@ -14366,14 +14096,9 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
-                "years": [
-                    "2018"
-                ]
-            },
-            {
                 "team": "Delhi Capitals",
                 "years": [
+                    "2018",
                     "2019"
                 ]
             },
@@ -14395,7 +14120,7 @@
                 ]
             }
         ],
-        "teamCount": 6
+        "teamCount": 5
     },
     {
         "name": "Sam Billings",
@@ -14404,10 +14129,11 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2016",
-                    "2017"
+                    "2017",
+                    "2021"
                 ]
             },
             {
@@ -14418,19 +14144,13 @@
                 ]
             },
             {
-                "team": "Delhi Capitals",
-                "years": [
-                    "2021"
-                ]
-            },
-            {
                 "team": "Kolkata Knight Riders",
                 "years": [
                     "2022"
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Akhil Herwadkar",
@@ -14439,7 +14159,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2016"
                 ]
@@ -14454,16 +14174,11 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2016",
                     "2017",
-                    "2018"
-                ]
-            },
-            {
-                "team": "Delhi Capitals",
-                "years": [
+                    "2018",
                     "2019",
                     "2020",
                     "2021",
@@ -14480,7 +14195,7 @@
                 ]
             }
         ],
-        "teamCount": 3
+        "teamCount": 2
     },
     {
         "name": "Carlos Brathwaite",
@@ -14489,7 +14204,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2016",
                     "2017"
@@ -14517,7 +14232,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2016"
                 ]
@@ -14532,15 +14247,10 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
-                "years": [
-                    "2022",
-                    "2023"
-                ]
-            },
-            {
                 "team": "Royal Challengers Bengaluru",
                 "years": [
+                    "2022",
+                    "2023",
                     "2024"
                 ]
             },
@@ -14551,7 +14261,7 @@
                 ]
             }
         ],
-        "teamCount": 5
+        "teamCount": 4
     },
     {
         "name": "Khaleel Ahmed",
@@ -14560,10 +14270,13 @@
         "bowling": "Left arm Fast medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2016",
-                    "2017"
+                    "2017",
+                    "2022",
+                    "2023",
+                    "2024"
                 ]
             },
             {
@@ -14576,14 +14289,6 @@
                 ]
             },
             {
-                "team": "Delhi Capitals",
-                "years": [
-                    "2022",
-                    "2023",
-                    "2024"
-                ]
-            },
-            {
                 "team": "Chennai Super Kings",
                 "years": [
                     "2025",
@@ -14591,7 +14296,7 @@
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Joel Paris",
@@ -14600,7 +14305,7 @@
         "bowling": "Left arm Fast medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2016"
                 ]
@@ -14657,13 +14362,13 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2018"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2019"
                 ]
@@ -14709,7 +14414,7 @@
         "bowling": "Right arm Medium, Right arm Offbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2016",
                     "2017"
@@ -14725,7 +14430,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2016",
                     "2017"
@@ -14741,7 +14446,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2016"
                 ]
@@ -14812,7 +14517,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2017"
                 ]
@@ -14999,27 +14704,22 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2017"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018"
                 ]
             },
             {
-                "team": "Kings XI Punjab",
-                "years": [
-                    "2019",
-                    "2020"
-                ]
-            },
-            {
                 "team": "Punjab Kings",
                 "years": [
+                    "2019",
+                    "2020",
                     "2021"
                 ]
             },
@@ -15036,7 +14736,7 @@
                 ]
             }
         ],
-        "teamCount": 7
+        "teamCount": 6
     },
     {
         "name": "Scott Boland",
@@ -15072,7 +14772,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2020",
                     "2021"
@@ -15101,7 +14801,7 @@
         "bowling": "Legbreak Googly",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2016",
                     "2017"
@@ -15134,7 +14834,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2016"
                 ]
@@ -15147,14 +14847,9 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
-                "years": [
-                    "2020"
-                ]
-            },
-            {
                 "team": "Punjab Kings",
                 "years": [
+                    "2020",
                     "2021"
                 ]
             },
@@ -15171,7 +14866,7 @@
                 ]
             }
         ],
-        "teamCount": 6
+        "teamCount": 5
     },
     {
         "name": "Akshay Karnewar",
@@ -15180,7 +14875,7 @@
         "bowling": "Right arm Offbreak, Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2016"
                 ]
@@ -15195,7 +14890,7 @@
         "bowling": "Left arm Wrist spin",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2016",
                     "2017"
@@ -15217,7 +14912,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2016"
                 ]
@@ -15280,7 +14975,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2017"
                 ]
@@ -15295,7 +14990,7 @@
         "bowling": "Right arm Medium, Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2017"
                 ]
@@ -15331,15 +15026,10 @@
         "bowling": "Right arm Fast",
         "teams": [
             {
-                "team": "Delhi Daredevils",
-                "years": [
-                    "2017",
-                    "2018"
-                ]
-            },
-            {
                 "team": "Delhi Capitals",
                 "years": [
+                    "2017",
+                    "2018",
                     "2019",
                     "2020",
                     "2021"
@@ -15361,7 +15051,7 @@
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Navdeep Saini",
@@ -15370,13 +15060,13 @@
         "bowling": "Right arm Fast",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2017"
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018",
                     "2019",
@@ -15450,14 +15140,9 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
-                "years": [
-                    "2018"
-                ]
-            },
-            {
                 "team": "Delhi Capitals",
                 "years": [
+                    "2018",
                     "2020"
                 ]
             },
@@ -15481,7 +15166,7 @@
                 ]
             }
         ],
-        "teamCount": 6
+        "teamCount": 5
     },
     {
         "name": "Ankit Soni",
@@ -15586,7 +15271,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2017"
                 ]
@@ -15615,7 +15300,7 @@
         "bowling": "Left arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2017"
                 ]
@@ -15685,7 +15370,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018",
                     "2019"
@@ -15734,7 +15419,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018"
                 ]
@@ -15768,7 +15453,7 @@
                 ]
             },
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2018"
                 ]
@@ -15804,15 +15489,10 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
-                "years": [
-                    "2019",
-                    "2020"
-                ]
-            },
-            {
                 "team": "Punjab Kings",
                 "years": [
+                    "2019",
+                    "2020",
                     "2021"
                 ]
             },
@@ -15832,7 +15512,7 @@
                 ]
             }
         ],
-        "teamCount": 5
+        "teamCount": 4
     },
     {
         "name": "Krishnappa Gowtham",
@@ -15854,7 +15534,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2020"
                 ]
@@ -15889,7 +15569,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018",
                     "2019"
@@ -16025,7 +15705,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018",
                     "2019",
@@ -16160,7 +15840,7 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2017"
                 ]
@@ -16201,20 +15881,15 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2017"
                 ]
             },
             {
-                "team": "Delhi Daredevils",
-                "years": [
-                    "2018"
-                ]
-            },
-            {
                 "team": "Delhi Capitals",
                 "years": [
+                    "2018",
                     "2019",
                     "2020",
                     "2021"
@@ -16236,7 +15911,7 @@
                 ]
             }
         ],
-        "teamCount": 5
+        "teamCount": 4
     },
     {
         "name": "Tymal Mills",
@@ -16245,7 +15920,7 @@
         "bowling": "Left arm Fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2017"
                 ]
@@ -16266,7 +15941,7 @@
         "bowling": "Right arm Fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2017"
                 ]
@@ -16371,19 +16046,14 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018",
                     "2019",
                     "2020",
                     "2021",
                     "2022",
-                    "2023"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bengaluru",
-                "years": [
+                    "2023",
                     "2024"
                 ]
             },
@@ -16395,7 +16065,7 @@
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Narayan Jagadeesan",
@@ -16513,7 +16183,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2022",
                     "2023"
@@ -16641,19 +16311,14 @@
         "bowling": "Right arm Bowler",
         "teams": [
             {
-                "team": "Delhi Daredevils",
-                "years": [
-                    "2018"
-                ]
-            },
-            {
                 "team": "Delhi Capitals",
                 "years": [
+                    "2018",
                     "2019"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Prithvi Shaw",
@@ -16662,14 +16327,9 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Delhi Daredevils",
-                "years": [
-                    "2018"
-                ]
-            },
-            {
                 "team": "Delhi Capitals",
                 "years": [
+                    "2018",
                     "2019",
                     "2020",
                     "2021",
@@ -16680,7 +16340,7 @@
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Abhishek Sharma",
@@ -16689,7 +16349,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2018"
                 ]
@@ -16717,7 +16377,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2018"
                 ]
@@ -16732,20 +16392,15 @@
         "bowling": "Legbreak Googly",
         "teams": [
             {
-                "team": "Delhi Daredevils",
-                "years": [
-                    "2018"
-                ]
-            },
-            {
                 "team": "Delhi Capitals",
                 "years": [
+                    "2018",
                     "2019",
                     "2020"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Liam Plunkett",
@@ -16754,7 +16409,7 @@
         "bowling": "Right arm Fast",
         "teams": [
             {
-                "team": "Delhi Daredevils",
+                "team": "Delhi Capitals",
                 "years": [
                     "2018"
                 ]
@@ -16769,7 +16424,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2018"
                 ]
@@ -16784,7 +16439,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2018"
                 ]
@@ -16811,9 +16466,10 @@
         "bowling": "Left arm Fast medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
-                    "2018"
+                    "2018",
+                    "2026"
                 ]
             },
             {
@@ -16821,15 +16477,9 @@
                 "years": [
                     "2021"
                 ]
-            },
-            {
-                "team": "Punjab Kings",
-                "years": [
-                    "2026"
-                ]
             }
         ],
-        "teamCount": 3
+        "teamCount": 2
     },
     {
         "name": "Mujeeb Ur Rahman",
@@ -16838,7 +16488,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2018",
                     "2019",
@@ -17142,7 +16792,7 @@
                 ]
             },
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2020"
                 ]
@@ -17252,7 +16902,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2022"
                 ]
@@ -17320,7 +16970,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2019"
                 ]
@@ -17424,7 +17074,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2021"
                 ]
@@ -17473,7 +17123,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018"
                 ]
@@ -17500,7 +17150,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018",
                     "2019",
@@ -17532,7 +17182,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2018",
                     "2020",
@@ -17591,7 +17241,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2021"
                 ]
@@ -17625,7 +17275,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2022"
                 ]
@@ -17683,15 +17333,10 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Kings XI Punjab",
-                "years": [
-                    "2019",
-                    "2020"
-                ]
-            },
-            {
                 "team": "Punjab Kings",
                 "years": [
+                    "2019",
+                    "2020",
                     "2021",
                     "2022",
                     "2023",
@@ -17701,7 +17346,7 @@
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Sam Curran",
@@ -17710,9 +17355,11 @@
         "bowling": "Left arm Medium fast",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
-                    "2019"
+                    "2019",
+                    "2023",
+                    "2024"
                 ]
             },
             {
@@ -17723,20 +17370,13 @@
                 ]
             },
             {
-                "team": "Punjab Kings",
-                "years": [
-                    "2023",
-                    "2024"
-                ]
-            },
-            {
                 "team": "Rajasthan Royals",
                 "years": [
                     "2026"
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Arshdeep Singh",
@@ -17745,15 +17385,10 @@
         "bowling": "Left arm Medium fast",
         "teams": [
             {
-                "team": "Kings XI Punjab",
-                "years": [
-                    "2019",
-                    "2020"
-                ]
-            },
-            {
                 "team": "Punjab Kings",
                 "years": [
+                    "2019",
+                    "2020",
                     "2021",
                     "2022",
                     "2023",
@@ -17763,7 +17398,7 @@
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Agnivesh Ayachi",
@@ -17772,7 +17407,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2019"
                 ]
@@ -17787,15 +17422,10 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Kings XI Punjab",
-                "years": [
-                    "2019",
-                    "2020"
-                ]
-            },
-            {
                 "team": "Punjab Kings",
                 "years": [
+                    "2019",
+                    "2020",
                     "2021",
                     "2022",
                     "2023",
@@ -17805,7 +17435,7 @@
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Darshan Nalkande",
@@ -17814,15 +17444,10 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
-                "years": [
-                    "2019",
-                    "2020"
-                ]
-            },
-            {
                 "team": "Punjab Kings",
                 "years": [
+                    "2019",
+                    "2020",
                     "2021"
                 ]
             },
@@ -17841,7 +17466,7 @@
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Varun Chakravarthy",
@@ -17850,7 +17475,7 @@
         "bowling": "Legbreak Googly",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2019"
                 ]
@@ -17877,7 +17502,7 @@
         "bowling": "Right arm Fast",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2019",
                     "2020"
@@ -18196,7 +17821,7 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2019"
                 ]
@@ -18228,7 +17853,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2019"
                 ]
@@ -18250,11 +17875,13 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2019",
                     "2020",
-                    "2021"
+                    "2021",
+                    "2025",
+                    "2026"
                 ]
             },
             {
@@ -18269,16 +17896,9 @@
                 "years": [
                     "2024"
                 ]
-            },
-            {
-                "team": "Royal Challengers Bengaluru",
-                "years": [
-                    "2025",
-                    "2026"
-                ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Shivam Dube",
@@ -18287,7 +17907,7 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2019",
                     "2020"
@@ -18319,7 +17939,7 @@
         "bowling": "Legbreak Googly",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2019"
                 ]
@@ -18405,7 +18025,7 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2021"
                 ]
@@ -18462,7 +18082,7 @@
         "bowling": "Left arm Fast medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
+                "team": "Punjab Kings",
                 "years": [
                     "2020"
                 ]
@@ -18477,20 +18097,15 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Kings XI Punjab",
-                "years": [
-                    "2020"
-                ]
-            },
-            {
                 "team": "Punjab Kings",
                 "years": [
+                    "2020",
                     "2021",
                     "2022"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Ravi Bishnoi",
@@ -18499,14 +18114,9 @@
         "bowling": "Legbreak Googly",
         "teams": [
             {
-                "team": "Kings XI Punjab",
-                "years": [
-                    "2020"
-                ]
-            },
-            {
                 "team": "Punjab Kings",
                 "years": [
+                    "2020",
                     "2021"
                 ]
             },
@@ -18526,7 +18136,7 @@
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Tom Banton",
@@ -18652,15 +18262,10 @@
                 ]
             },
             {
-                "team": "Royal Challengers Bangalore",
-                "years": [
-                    "2022",
-                    "2023"
-                ]
-            },
-            {
                 "team": "Royal Challengers Bengaluru",
                 "years": [
+                    "2022",
+                    "2023",
                     "2024"
                 ]
             },
@@ -18672,7 +18277,7 @@
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Yashasvi Jaiswal",
@@ -18772,7 +18377,7 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2020",
                     "2021"
@@ -18788,7 +18393,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2020",
                     "2021",
@@ -18819,7 +18424,7 @@
         "bowling": "Left arm Medium fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2020"
                 ]
@@ -19584,9 +19189,11 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
-                    "2021"
+                    "2021",
+                    "2025",
+                    "2026"
                 ]
             },
             {
@@ -19596,16 +19203,9 @@
                     "2023",
                     "2024"
                 ]
-            },
-            {
-                "team": "Royal Challengers Bengaluru",
-                "years": [
-                    "2025",
-                    "2026"
-                ]
             }
         ],
-        "teamCount": 3
+        "teamCount": 2
     },
     {
         "name": "Mohammed Azharuddeen",
@@ -19614,7 +19214,7 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2021"
                 ]
@@ -19629,23 +19229,18 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2021",
                     "2022",
-                    "2023"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bengaluru",
-                "years": [
+                    "2023",
                     "2024",
                     "2025",
                     "2026"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Finn Allen",
@@ -19654,7 +19249,7 @@
         "bowling": "",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2021",
                     "2022",
@@ -19677,7 +19272,7 @@
         "bowling": "Left arm Fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2021"
                 ]
@@ -19692,21 +19287,16 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2021",
                     "2022",
-                    "2023"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bengaluru",
-                "years": [
+                    "2023",
                     "2024"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Akash Deep",
@@ -19715,16 +19305,11 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2021",
                     "2022",
-                    "2023"
-                ]
-            },
-            {
-                "team": "Royal Challengers Bengaluru",
-                "years": [
+                    "2023",
                     "2024"
                 ]
             },
@@ -19741,7 +19326,7 @@
                 ]
             }
         ],
-        "teamCount": 4
+        "teamCount": 3
     },
     {
         "name": "Kyle Jamieson",
@@ -19750,7 +19335,7 @@
         "bowling": "Right arm Fast medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2021"
                 ]
@@ -20825,7 +20410,7 @@
         "bowling": "Left arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2022"
                 ]
@@ -20846,7 +20431,7 @@
         "bowling": "Slow Left arm Orthodox",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2022"
                 ]
@@ -21634,20 +21219,15 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
-                "years": [
-                    "2023"
-                ]
-            },
-            {
                 "team": "Royal Challengers Bengaluru",
                 "years": [
+                    "2023",
                     "2024",
                     "2025"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Michael Bracewell",
@@ -21656,7 +21236,7 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2023"
                 ]
@@ -21671,7 +21251,7 @@
         "bowling": "Right arm Medium fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2023"
                 ]
@@ -21686,14 +21266,9 @@
         "bowling": "Right arm Offbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
-                "years": [
-                    "2023"
-                ]
-            },
-            {
                 "team": "Royal Challengers Bengaluru",
                 "years": [
+                    "2023",
                     "2024"
                 ]
             },
@@ -21705,7 +21280,7 @@
                 ]
             }
         ],
-        "teamCount": 3
+        "teamCount": 2
     },
     {
         "name": "Avinash Singh",
@@ -21714,7 +21289,7 @@
         "bowling": "Right arm Fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
+                "team": "Royal Challengers Bengaluru",
                 "years": [
                     "2023"
                 ]
@@ -21729,19 +21304,14 @@
         "bowling": "Left arm Medium fast",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
-                "years": [
-                    "2023"
-                ]
-            },
-            {
                 "team": "Royal Challengers Bengaluru",
                 "years": [
+                    "2023",
                     "2024"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Himanshu Sharma",
@@ -21750,19 +21320,14 @@
         "bowling": "Legbreak",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
-                "years": [
-                    "2023"
-                ]
-            },
-            {
                 "team": "Royal Challengers Bengaluru",
                 "years": [
+                    "2023",
                     "2024"
                 ]
             }
         ],
-        "teamCount": 2
+        "teamCount": 1
     },
     {
         "name": "Vijaykumar Vyshak",
@@ -21771,14 +21336,9 @@
         "bowling": "Right arm Medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
-                "years": [
-                    "2023"
-                ]
-            },
-            {
                 "team": "Royal Challengers Bengaluru",
                 "years": [
+                    "2023",
                     "2024"
                 ]
             },
@@ -21790,7 +21350,7 @@
                 ]
             }
         ],
-        "teamCount": 3
+        "teamCount": 2
     },
     {
         "name": "Reece Topley",
@@ -21799,14 +21359,9 @@
         "bowling": "Left arm Fast medium",
         "teams": [
             {
-                "team": "Royal Challengers Bangalore",
-                "years": [
-                    "2023"
-                ]
-            },
-            {
                 "team": "Royal Challengers Bengaluru",
                 "years": [
+                    "2023",
                     "2024"
                 ]
             },
@@ -21817,7 +21372,7 @@
                 ]
             }
         ],
-        "teamCount": 3
+        "teamCount": 2
     },
     {
         "name": "Harry Brook",

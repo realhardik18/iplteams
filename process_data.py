@@ -5,6 +5,13 @@ def process_data():
     with open("ipl_players_detailed.json", "r") as f:
         data = json.load(f)
     
+    TEAM_MAPPING = {
+        "Delhi Daredevils": "Delhi Capitals",
+        "Kings XI Punjab": "Punjab Kings",
+        "Royal Challengers Bangalore": "Royal Challengers Bengaluru",
+        "Bangalore Royal Challengers": "Royal Challengers Bengaluru"
+    }
+
     # Structure: player -> { teams: {team -> [years]}, details: {role, batting, bowling} }
     player_map = {}
     
@@ -13,7 +20,10 @@ def process_data():
     
     for year in sorted_years:
         teams = data[year]
-        for team_name, players in teams.items():
+        for original_team_name, players in teams.items():
+            # Normalize team name
+            team_name = TEAM_MAPPING.get(original_team_name, original_team_name)
+            
             for p_info in players:
                 name = p_info["name"]
                 if name not in player_map:

@@ -40,7 +40,12 @@ export const seedPlayers = mutation({
         .filter((q) => q.eq(q.field("name"), player.name))
         .unique();
 
-      if (!existing) {
+      if (existing) {
+        await ctx.db.patch(existing._id, {
+          ...player,
+          teamCount: player.teams.length,
+        });
+      } else {
         await ctx.db.insert("players", {
           ...player,
           teamCount: player.teams.length,
