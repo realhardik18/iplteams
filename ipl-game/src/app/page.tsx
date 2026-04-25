@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { useQuery } from "convex/react";
+import { useQuery, useMutation } from "convex/react";
 import { api } from "../../convex/_generated/api";
+import { Id } from "../../convex/_generated/dataModel";
 
 type TeamInfo = {
   team: string;
@@ -44,7 +45,14 @@ export default function Home() {
   const playersData = useQuery(api.players.getPlayers, { minTeams: 2 });
   const [currentPlayer, setCurrentPlayer] = useState<Player | null>(null);
   const [options, setOptions] = useState<string[]>([]);
-  const [gameMode, setGameMode] = useState<"hard" | "easy" | "teammates" | null>(null);
+  const [gameMode, setGameMode] = useState<"hard" | "easy" | "teammates" | "battle" | null>(null);
+  const [battleState, setBattleState] = useState<"entry" | "lobby" | "playing" | "finished" | null>(null);
+  const [roomId, setRoomId] = useState<Id<"rooms_v2"> | null>(null);
+  const [roomCode, setRoomCode] = useState("");
+  const [identity, setIdentity] = useState("");
+  const [timer, setTimer] = useState(60);
+  const [battleIndex, setBattleIndex] = useState(0);
+
   const [guess, setGuess] = useState("");
   const [result, setResult] = useState<{ type: "success" | "error"; message: string } | null>(null);
   const [attempts, setAttempts] = useState(0);
@@ -52,7 +60,19 @@ export default function Home() {
   const [seenPlayers, setSeenPlayers] = useState<Set<string>>(new Set());
   const [teammateClues, setTeammateClues] = useState<string[]>([]);
 
-  const startGame = (mode: "hard" | "easy" | "teammates") => {
+  useEffect(() => {
+    let id = sessionStorage.getItem("player_id");
+    if (!id) {
+      id = Math.random().toString(36).substring(2);
+      sessionStorage.setItem("player_id", id);
+    }
+    setIdentity(id);
+  }, []);
+
+  const startGame = (mode: "hard" | "easy" | "teammates" | "battle") => {
+    if (mode === "battle") {
+      setBattleState("entry");
+    }
     setGameMode(mode);
   };
 
@@ -141,18 +161,91 @@ export default function Home() {
     }
   }, [playersData, gameMode, generateOptions, generateTeammateClues, seenPlayers]);
 
-  useEffect(() => {
-    if (playersData && !currentPlayer) {
-      pickRandomPlayer();
-    }
-  }, [playersData, currentPlayer, pickRandomPlayer]);
+  const createRoom = useMutation(api.rooms.create);
+  const joinRoom = useMutation(api.rooms.join);
+  const toggleReady = useMutation(api.rooms.toggleReady);
+  const syncScore = useMutation(api.rooms.updateScore);
+  const room = useQuery(roomCode ? api.rooms.get : (undefined as any), { code: roomCode });
+
+  const [countdown, setCountdown] = useState<number | null>(null);
 
   useEffect(() => {
-    if ((gameMode === "easy" || gameMode === "teammates") && currentPlayer && playersData) {
-      generateOptions(currentPlayer, playersData);
-    } 
-    if (gameMode === "teammates" && currentPlayer && playersData) {
-      generateTeammateClues(currentPlayer, playersData);
+    if (room?.status === "starting" && room.startTime) {
+      const interval = setInterval(() => {
+        const diff = Math.ceil((room.startTime! - Date.now()) / 1000);
+        if (diff <= 0) {
+          setCountdown(null);
+          setBattleState("playing");
+          clearInterval(interval);
+        } else {
+          setCountdown(diff);
+        }
+      }, 100);
+      return () => clearInterval(interval);
+    }
+  }, [room?.status, room?.startTime]);
+
+  useEffect(() => {
+    if (gameMode === "battle" && battleState === "playing" && timer > 0) {
+      const interval = setInterval(() => setTimer(t => t - 1), 1000);
+      return () => clearInterval(interval);
+    } else if (timer === 0 && battleState === "playing") {
+      setBattleState("finished");
+    }
+  }, [gameMode, battleState, timer]);
+
+  // Sync current player for battle mode
+  useEffect(() => {
+    if (gameMode === "battle" && battleState === "playing" && room && playersData) {
+      const q = room.questions?.[battleIndex];
+      if (q) {
+        const player = playersData.find(p => p._id === q.playerId);
+        if (player) {
+          setCurrentPlayer(player);
+          setOptions(q.options);
+        }
+      }
+    }
+  }, [gameMode, battleState, battleIndex, room, playersData]);
+
+  const handleCreateRoom = async () => {
+    const res = await createRoom({ name: "Player 1", identity });
+    setRoomCode(res.code);
+    setRoomId(res.roomId);
+    setBattleState("lobby");
+  };
+
+  const handleJoinRoom = async (code: string) => {
+    try {
+      const id = await joinRoom({ code: code.toUpperCase(), name: "Player 2", identity });
+      setRoomCode(code.toUpperCase());
+      setRoomId(id);
+      setBattleState("lobby");
+    } catch (e) {
+      alert("Room not found or full");
+    }
+  };
+
+  const handleToggleReady = async () => {
+    if (roomId) {
+      await toggleReady({ roomId, identity });
+    }
+  };
+
+  useEffect(() => {
+    if (playersData && !currentPlayer && gameMode !== "battle") {
+      pickRandomPlayer();
+    }
+  }, [playersData, currentPlayer, pickRandomPlayer, gameMode]);
+
+  useEffect(() => {
+    if (gameMode !== "battle") {
+      if ((gameMode === "easy" || gameMode === "teammates") && currentPlayer && playersData) {
+        generateOptions(currentPlayer, playersData);
+      } 
+      if (gameMode === "teammates" && currentPlayer && playersData) {
+        generateTeammateClues(currentPlayer, playersData);
+      }
     }
   }, [gameMode, currentPlayer, playersData, generateOptions, generateTeammateClues]);
 
@@ -162,10 +255,17 @@ export default function Home() {
     if (selectedName.trim().toLowerCase() === currentPlayer.name.toLowerCase()) {
       setResult({ type: "success", message: `CORRECT: ${currentPlayer.name}` });
       setAttempts((a) => a + 1);
-      setTimeout(pickRandomPlayer, 2000);
+      
+      if (gameMode === "battle" && roomId) {
+        syncScore({ roomId, identity, score: attempts + 1 });
+        setBattleIndex(i => i + 1);
+        setResult(null);
+      } else {
+        setTimeout(pickRandomPlayer, 2000);
+      }
     } else {
       setResult({ type: "error", message: "TRY AGAIN" });
-      setAttempts(0);
+      if (gameMode !== "battle") setAttempts(0);
     }
   };
 
@@ -203,23 +303,108 @@ export default function Home() {
                 TEAMMATES
                 <small>Shared Dressing Room</small>
               </button>
+              <button onClick={() => startGame("battle")} className="battle-btn">
+                1V1 BATTLE
+                <small>Real-time Race</small>
+              </button>
             </div>
           </div>
         </div>
       )}
 
-      {!currentPlayer ? (
+      {gameMode === "battle" && battleState === "entry" && (
+        <div className="startup-overlay">
+          <div className="startup-modal">
+            <h1>1v1 Battle</h1>
+            <div className="startup-options">
+              <button onClick={handleCreateRoom} className="hard-btn">
+                CREATE ROOM
+                <small>Get a code to share</small>
+              </button>
+              <div className="join-box">
+                <input 
+                  type="text" 
+                  placeholder="ENTER CODE..." 
+                  className="join-input"
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter") handleJoinRoom(e.currentTarget.value);
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {gameMode === "battle" && battleState === "lobby" && (
+        <div className="startup-overlay">
+          <div className="startup-modal">
+            <h1>Room: {roomCode}</h1>
+            <div className="players-list">
+              {room?.players.map((p, idx) => (
+                <div key={idx} className="player-entry">
+                  <div className="player-info-row">
+                    <span>{p.name} {p.identity === identity && "(You)"}</span>
+                    <span className={`ready-tag ${p.ready ? "is-ready" : ""}`}>
+                      {p.ready ? "READY" : "NOT READY"}
+                    </span>
+                  </div>
+                </div>
+              ))}
+              {room?.players.length === 1 && (
+                <div className="waiting-text">Waiting for opponent...</div>
+              )}
+            </div>
+            
+            {countdown !== null ? (
+              <div className="countdown-display">
+                <div className="countdown-number">{countdown}</div>
+                <small>GET READY!</small>
+              </div>
+            ) : room?.players.length === 2 ? (
+              <button onClick={handleToggleReady} className={`easy-btn ${room.players.find(p => p.identity === identity)?.ready ? "ready-active" : ""}`}>
+                {room.players.find(p => p.identity === identity)?.ready ? "CANCEL READY" : "I'M READY!"}
+              </button>
+            ) : (
+              <div className="waiting-box">Need 2 players to start</div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {gameMode === "battle" && battleState === "finished" && (
+        <div className="startup-overlay">
+          <div className="startup-modal">
+            <h1>Match Over!</h1>
+            <div className="results-list">
+              {room?.players.sort((a,b) => b.score - a.score).map((p, idx) => (
+                <div key={idx} className="result-entry">
+                  <span>{p.name}</span>
+                  <strong>{p.score}</strong>
+                </div>
+              ))}
+            </div>
+            <button onClick={() => window.location.reload()} className="hard-btn">
+              PLAY AGAIN
+            </button>
+          </div>
+        </div>
+      )}
+
+      {!currentPlayer && gameMode !== "battle" ? (
         <div className="loading-container"><h1>INITIALIZING GAME...</h1></div>
       ) : (
-        <div className={`game-content ${!gameMode ? "blurred" : ""}`}>
-          {!gameMode && (
-            <div className="mode-toggle">
-              <button 
-                className={gameMode === "easy" ? "active" : ""} 
-                onClick={() => setGameMode(gameMode === "easy" ? "hard" : "easy")}
-              >
-                {gameMode === "easy" ? "EASY MODE" : "HARD MODE"}
-              </button>
+        <div className={`game-content ${!gameMode || (gameMode === "battle" && battleState !== "playing") ? "blurred" : ""}`}>
+          {gameMode === "battle" && battleState === "playing" && (
+            <div className="battle-header">
+              <div className="timer">{timer}s</div>
+              <div className="battle-scores">
+                {room?.players.map((p, idx) => (
+                  <div key={idx} className={`score-badge ${p.identity === identity ? "me" : ""}`}>
+                    {p.name}: {p.score}
+                  </div>
+                ))}
+              </div>
             </div>
           )}
 
@@ -288,9 +473,9 @@ export default function Home() {
           </div>
         )}
 
-        {gameMode === "easy" || gameMode === "teammates" ? (
+        {gameMode === "easy" || gameMode === "teammates" || gameMode === "battle" ? (
           <div className="options-grid">
-            {options.map((name) => (
+            {options.length > 0 ? options.map((name) => (
               <button 
                 key={name} 
                 onClick={() => handleGuess(name)}
@@ -298,7 +483,9 @@ export default function Home() {
               >
                 {name}
               </button>
-            ))}
+            )) : (
+              <div className="error-text">No options available. Please create a new room.</div>
+            )}
           </div>
         ) : (
           <form onSubmit={handleSubmit}>
@@ -326,9 +513,11 @@ export default function Home() {
         )}
       </div>
 
-      <div className="stats-footer">
-        <div><span>Streak</span> {attempts}</div>
-      </div>
+      {gameMode !== "battle" && (
+        <div className="stats-footer">
+          <div><span>Streak</span> {attempts}</div>
+        </div>
+      )}
     </div>
     )}
   </main>

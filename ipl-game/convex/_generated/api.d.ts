@@ -9,6 +9,7 @@
  */
 
 import type * as players from "../players.js";
+import type * as rooms from "../rooms.js";
 import type * as seed from "../seed.js";
 
 import type {
@@ -19,6 +20,7 @@ import type {
 
 declare const fullApi: ApiFromModules<{
   players: typeof players;
+  rooms: typeof rooms;
   seed: typeof seed;
 }>;
 
