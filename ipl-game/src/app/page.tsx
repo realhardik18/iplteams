@@ -26,6 +26,30 @@ type BattlePlayer = {
   ready: boolean;
 };
 
+function ThemeToggle({ darkMode, onClick }: { darkMode: boolean; onClick: () => void }) {
+  return (
+    <button className="theme-toggle" onClick={onClick} aria-label="Toggle theme">
+      {darkMode ? (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1" x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/>
+          <line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+      ) : (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      )}
+    </button>
+  );
+}
+
 const TEAM_LOGOS: Record<string, string> = {
   "Mumbai Indians": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Mumbai_Indians_Logo.svg/500px-Mumbai_Indians_Logo.svg.png",
   "Royal Challengers Bengaluru": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Royal_Challengers_Bengaluru_Logo.svg/330px-Royal_Challengers_Bengaluru_Logo.svg.png",
@@ -68,6 +92,21 @@ export default function Home() {
   const [seenPlayers, setSeenPlayers] = useState<Set<string>>(new Set());
   const [teammateClues, setTeammateClues] = useState<string[]>([]);
   const [isLocked, setIsLocked] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    const saved = localStorage.getItem("theme");
+    const prefersDark = saved === "dark" || (!saved && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    setDarkMode(prefersDark);
+    document.documentElement.setAttribute("data-theme", prefersDark ? "dark" : "light");
+  }, []);
+
+  const toggleTheme = () => {
+    const next = !darkMode;
+    setDarkMode(next);
+    document.documentElement.setAttribute("data-theme", next ? "dark" : "light");
+    localStorage.setItem("theme", next ? "dark" : "light");
+  };
 
   useEffect(() => {
     let id = sessionStorage.getItem("player_id");
@@ -300,10 +339,29 @@ export default function Home() {
     setTimeout(pickRandomPlayer, 3000);
   };
 
-  if (!playersData) return <main><div className="loading-container"><h1>LOADING PLAYERS...</h1></div></main>;
+  if (!playersData) return (
+    <main>
+      <ThemeToggle darkMode={darkMode} onClick={toggleTheme} />
+      <div className="loading-container"><h1>LOADING PLAYERS...</h1></div>
+    </main>
+  );
+
+  if (playersData.length === 0) return (
+    <main>
+      <ThemeToggle darkMode={darkMode} onClick={toggleTheme} />
+      <div className="loading-container">
+        <h1>NO PLAYERS FOUND</h1>
+        <div className="empty-state">
+          <p>The database is empty. Make sure <code>npx convex dev</code> is running, then seed players by calling the <code>seedPlayers</code> mutation from the Convex dashboard.</p>
+        </div>
+      </div>
+    </main>
+  );
 
   return (
     <main className={!gameMode ? "no-scroll" : ""}>
+      <ThemeToggle darkMode={darkMode} onClick={toggleTheme} />
+
       {!gameMode && (
         <div className="startup-overlay">
           <div className="startup-modal">

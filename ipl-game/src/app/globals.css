@@ -8,6 +8,26 @@
   --error: #dc2626;
   --muted: #64748b;
   --border: rgba(15, 23, 42, 0.08);
+  --card-bg: white;
+  --overlay-bg: rgba(248, 250, 252, 0.4);
+  --subtle-bg: rgba(15, 23, 42, 0.02);
+  --subtle-bg-hover: rgba(15, 23, 42, 0.05);
+  --placeholder: rgba(15, 23, 42, 0.1);
+}
+
+[data-theme="dark"] {
+  --background: #0f172a;
+  --foreground: #e2e8f0;
+  --accent: #f59e0b;
+  --success: #34d399;
+  --error: #f87171;
+  --muted: #94a3b8;
+  --border: rgba(226, 232, 240, 0.1);
+  --card-bg: #1e293b;
+  --overlay-bg: rgba(15, 23, 42, 0.6);
+  --subtle-bg: rgba(226, 232, 240, 0.05);
+  --subtle-bg-hover: rgba(226, 232, 240, 0.1);
+  --placeholder: rgba(226, 232, 240, 0.15);
 }
 
 * {
@@ -32,14 +52,14 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
-  padding: 1.5rem;
+  min-height: 100dvh;
+  padding: 1rem 0.75rem;
   max-width: 800px;
   margin: 0 auto;
 }
 
 main.no-scroll {
-  height: 100vh;
+  height: 100dvh;
   overflow: hidden;
 }
 
@@ -53,42 +73,42 @@ main.no-scroll {
 
 header {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
 }
 
 h1 {
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 500;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
 }
 
 .player-details-clues {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.35rem;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .player-details-clues span {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  border: 1px solid rgba(217, 119, 6, 0.2);
-  padding: 0.15rem 0.5rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
+  padding: 0.15rem 0.4rem;
   border-radius: 4px;
-  background: rgba(217, 119, 6, 0.03);
+  background: color-mix(in srgb, var(--accent) 5%, transparent);
 }
 
 .teams-wrapper {
   width: 100%;
-  margin-bottom: 2rem;
-  display: flex; 
+  margin-bottom: 1.5rem;
+  display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 0.75rem;
 }
 
 .team-row {
@@ -107,28 +127,35 @@ h1 {
 .team-info-main {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  max-width: 70%;
+  gap: 0.6rem;
+  min-width: 0;
+  flex: 1;
 }
 
 .team-logo {
-  width: 32px;
-  height: 32px;
+  width: 26px;
+  height: 26px;
   object-fit: contain;
+  flex-shrink: 0;
 }
 
 .team-name {
-  font-size: 1.15rem;
+  font-size: 0.9rem;
   font-weight: 400;
   color: var(--foreground);
   line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .team-years {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: var(--muted);
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: 0.5rem;
 }
 
 .mode-toggle {
@@ -159,27 +186,29 @@ h1 {
 .options-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  gap: 0.6rem;
   width: 100%;
   max-width: 500px;
 }
 
 .options-grid button {
-  background: white;
+  background: var(--card-bg);
   border: 1px solid var(--border);
-  padding: 1rem;
+  padding: 0.75rem 0.5rem;
   border-radius: 8px;
   color: var(--foreground);
   font-family: inherit;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   cursor: pointer;
   transition: all 0.2s ease;
+  word-break: break-word;
+  line-height: 1.3;
 }
 
 .options-grid button:hover:not(:disabled) {
   border-color: var(--accent);
   color: var(--accent);
-  background: rgba(217, 119, 6, 0.02);
+  background: color-mix(in srgb, var(--accent) 5%, transparent);
 }
 
 .options-grid button:disabled {
@@ -198,9 +227,9 @@ input {
   background: transparent;
   border: none;
   border-bottom: 2px solid var(--border);
-  padding: 0.75rem 0;
+  padding: 0.6rem 0;
   color: var(--foreground);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: inherit;
   outline: none;
   transition: border-color 0.4s ease;
@@ -212,12 +241,12 @@ input:focus {
 }
 
 input::placeholder {
-  color: rgba(15, 23, 42, 0.1);
+  color: var(--placeholder);
 }
 
 .result {
-  margin-top: 1.5rem;
-  font-size: 0.9rem;
+  margin-top: 1rem;
+  font-size: 0.8rem;
   letter-spacing: 0.05em;
   font-weight: 500;
   text-align: center;
@@ -231,23 +260,24 @@ input::placeholder {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  padding: 1.5rem;
-  margin-top: auto; /* Push to bottom if content is short */
+  padding: 1rem;
+  margin-top: auto;
 }
 
 .stats-footer span {
-  color: rgba(15, 23, 42, 0.4);
+  color: var(--muted);
+  opacity: 0.6;
   margin-right: 0.4rem;
 }
 
 .reveal-link {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
   color: var(--muted);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   cursor: pointer;
   opacity: 0.6;
   transition: opacity 0.2s;
@@ -289,24 +319,24 @@ input::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(248, 250, 252, 0.4);
+  background: var(--overlay-bg);
   backdrop-filter: blur(4px);
 }
 
 .startup-modal {
-  background: white;
-  padding: 3rem;
-  border-radius: 24px;
-  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.1);
+  background: var(--card-bg);
+  padding: 1.75rem;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
   text-align: center;
-  max-width: 450px;
-  width: 90%;
+  max-width: 400px;
+  width: 92%;
 }
 
 .startup-modal h1 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--foreground);
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   text-transform: none;
   letter-spacing: normal;
 }
@@ -314,28 +344,28 @@ input::placeholder {
 .startup-options {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 0.75rem;
 }
 
 .startup-modal button {
-  padding: 1.25rem;
+  padding: 1rem;
   border-radius: 12px;
   border: 1px solid var(--border);
-  background: white;
+  background: var(--card-bg);
   cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.25rem;
   transition: none;
   font-family: inherit;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.9rem;
   width: 100%;
 }
 
 .startup-modal button:hover {
-  background: rgba(15, 23, 42, 0.02);
+  background: var(--subtle-bg);
 }
 
 .startup-modal button.easy-btn {
@@ -357,8 +387,8 @@ input::placeholder {
 }
 
 .startup-options button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.05);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
   border-color: var(--accent);
 }
 
@@ -377,12 +407,14 @@ input::placeholder {
 
 .join-input {
   width: 100%;
-  padding: 1rem;
+  padding: 0.85rem;
   border-radius: 12px;
   border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--foreground);
   text-align: center;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 0.95rem;
   letter-spacing: 0.1em;
 }
 
@@ -395,7 +427,7 @@ input::placeholder {
 
 .player-entry {
   padding: 1rem;
-  background: rgba(15, 23, 42, 0.02);
+  background: var(--subtle-bg);
   border-radius: 12px;
   font-weight: 500;
 }
@@ -419,7 +451,7 @@ input::placeholder {
   justify-content: space-between;
   align-items: center;
   padding: 1.25rem;
-  background: white;
+  background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: 12px;
 }
@@ -433,31 +465,36 @@ input::placeholder {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   width: 100%;
-  padding: 1rem;
-  background: white;
-  border-radius: 16px;
+  padding: 0.6rem 0.75rem;
+  background: var(--card-bg);
+  border-radius: 12px;
   border: 1px solid var(--border);
+  gap: 0.5rem;
 }
 
 .timer {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--accent);
+  flex-shrink: 0;
 }
 
 .battle-scores {
   display: flex;
-  gap: 1rem;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .score-badge {
-  padding: 0.5rem 1rem;
-  background: rgba(15, 23, 42, 0.05);
+  padding: 0.3rem 0.6rem;
+  background: var(--subtle-bg-hover);
   border-radius: 20px;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .player-info-row {
@@ -470,7 +507,7 @@ input::placeholder {
   font-size: 0.65rem;
   padding: 0.25rem 0.6rem;
   border-radius: 100px;
-  background: rgba(15, 23, 42, 0.05);
+  background: var(--subtle-bg-hover);
   color: var(--muted);
   font-weight: 700;
   letter-spacing: 0.05em;
@@ -517,25 +554,25 @@ input::placeholder {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  margin-bottom: 2.5rem;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
 }
 
 .teammate-clue-card {
-  background: white;
+  background: var(--card-bg);
   border: 1px solid var(--border);
-  padding: 1.25rem;
-  border-radius: 12px;
-  font-size: 1.1rem;
+  padding: 0.85rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
   color: var(--foreground);
   line-height: 1.5;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .teammate-ask {
-  margin-top: 1rem;
-  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
   color: var(--muted);
   text-align: center;
   text-transform: uppercase;
@@ -543,7 +580,7 @@ input::placeholder {
 }
 
 .startup-options button.hard-btn:hover {
-  background: rgba(15, 23, 42, 0.02);
+  background: var(--subtle-bg);
 }
 
 .startup-options button.easy-btn {
@@ -557,13 +594,109 @@ input::placeholder {
 }
 
 
+.theme-toggle {
+  position: fixed;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 1100;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.2s, color 0.2s;
+  padding: 0;
+}
+
+.theme-toggle svg {
+  display: block;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+[data-theme="dark"] .startup-modal button {
+  color: var(--foreground);
+}
+
+[data-theme="dark"] .startup-modal button.hard-btn {
+  color: #fca5a5;
+  border-color: #fca5a5;
+}
+
+[data-theme="dark"] .startup-modal button.easy-btn {
+  color: white;
+}
+
+[data-theme="dark"] .startup-modal button.battle-btn {
+  color: #93c5fd;
+  border-color: #93c5fd;
+}
+
+[data-theme="dark"] .startup-modal button.battle-btn small {
+  color: #93c5fd;
+}
+
+[data-theme="dark"] .startup-options button small {
+  color: #cbd5e1;
+}
+
+[data-theme="dark"] .ready-tag.is-ready {
+  background: #166534;
+  color: #86efac;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+}
+
+.empty-state p {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  line-height: 1.6;
+}
+
+.empty-state code {
+  background: var(--subtle-bg-hover);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
 /* Tablet & Desktop sizing */
 @media (min-width: 768px) {
-  main { padding: 4rem 2rem; }
-  h1 { font-size: 1.25rem; margin-bottom: 1.5rem; }
-  .team-name { font-size: 1.5rem; }
-  .team-years { font-size: 0.9rem; }
-  input { font-size: 2rem; padding: 1rem 0; }
+  main { padding: 3rem 2rem; }
+  h1 { font-size: 1.1rem; margin-bottom: 1.25rem; }
+  header { margin-bottom: 2rem; }
+  .team-name { font-size: 1.25rem; }
+  .team-logo { width: 32px; height: 32px; }
+  .team-info-main { gap: 1rem; }
+  .team-years { font-size: 0.85rem; }
+  .teams-wrapper { gap: 1rem; }
+  input { font-size: 1.75rem; padding: 0.85rem 0; }
   .stats-footer { margin-top: 2rem; background: none; }
   .player-details-clues span { font-size: 0.7rem; padding: 0.2rem 0.6rem; }
+  .player-details-clues { gap: 0.5rem; }
+  .options-grid { gap: 1rem; }
+  .options-grid button { padding: 1rem; font-size: 0.9rem; }
+  .startup-modal { padding: 2.5rem; max-width: 450px; border-radius: 24px; }
+  .startup-modal h1 { font-size: 1.5rem; margin-bottom: 2rem; }
+  .startup-options { gap: 1rem; }
+  .startup-modal button { padding: 1.25rem; font-size: 1rem; }
+  .battle-header { padding: 1rem; margin-bottom: 2rem; border-radius: 16px; }
+  .timer { font-size: 1.5rem; }
+  .score-badge { padding: 0.5rem 1rem; font-size: 0.8rem; }
+  .battle-scores { gap: 0.75rem; }
+  .teammate-clue-card { padding: 1.25rem; font-size: 1.05rem; }
+  .teammate-clues-wrapper { gap: 1rem; margin-bottom: 2rem; }
+  .theme-toggle { top: 1rem; right: 1rem; width: 38px; height: 38px; }
 }
