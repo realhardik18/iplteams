@@ -213,9 +213,23 @@ export default function Home() {
   const joinRoom = useMutation(api.rooms.join);
   const toggleReady = useMutation(api.rooms.toggleReady);
   const syncScore = useMutation(api.rooms.updateScore);
+  const rematch = useMutation(api.rooms.rematch);
+  const [codeCopied, setCodeCopied] = useState(false);
+  const [penaltyKey, setPenaltyKey] = useState(0);
   const room = useQuery(roomCode ? api.rooms.get : (undefined as any), { code: roomCode });
 
   const [countdown, setCountdown] = useState<number | null>(null);
+
+  // When room resets to waiting (rematch), sync back to lobby
+  useEffect(() => {
+    if (room?.status === "waiting" && battleState === "finished") {
+      setBattleState("lobby");
+      setBattleIndex(0);
+      setTimer(60);
+      setAttempts(0);
+      setResult(null);
+    }
+  }, [room?.status, battleState]);
 
   useEffect(() => {
     if (room?.status === "starting" && room.startTime) {
@@ -280,6 +294,22 @@ export default function Home() {
     }
   };
 
+  const handleCopyCode = () => {
+    navigator.clipboard.writeText(roomCode);
+    setCodeCopied(true);
+    setTimeout(() => setCodeCopied(false), 2000);
+  };
+
+  const handleRematch = async () => {
+    if (!roomId) return;
+    await rematch({ roomId });
+    setBattleState("lobby");
+    setBattleIndex(0);
+    setTimer(60);
+    setAttempts(0);
+    setResult(null);
+  };
+
   useEffect(() => {
     if (playersData && !currentPlayer && gameMode !== "battle") {
       pickRandomPlayer();
@@ -315,6 +345,7 @@ export default function Home() {
       setResult({ type: "error", message: "TRY AGAIN" });
       if (gameMode === "battle") {
         setIsLocked(true);
+        setPenaltyKey(k => k + 1);
         setResult({ type: "error", message: "WRONG! 2s PENALTY" });
         setTimeout(() => {
           setIsLocked(false);
@@ -416,6 +447,9 @@ export default function Home() {
         <div className="startup-overlay">
           <div className="startup-modal">
             <h1>Room: {roomCode}</h1>
+            <button className="copy-code-btn" onClick={handleCopyCode}>
+              {codeCopied ? "Copied!" : "Copy Code"}
+            </button>
             <div className="players-list">
               {room?.players.map((p: BattlePlayer, idx: number) => (
                 <div key={idx} className="player-entry">
@@ -460,8 +494,13 @@ export default function Home() {
                 </div>
               ))}
             </div>
-            <button onClick={() => window.location.reload()} className="hard-btn">
+            <button onClick={handleRematch} className="easy-btn">
               PLAY AGAIN
+              <small>Same opponent</small>
+            </button>
+            <button onClick={() => window.location.reload()} className="hard-btn" style={{ marginTop: "0.5rem" }}>
+              NEW GAME
+              <small>Back to menu</small>
             </button>
           </div>
         </div>
@@ -579,6 +618,12 @@ export default function Home() {
         {result && (
           <div className={`result ${result.type}`}>
             {result.message}
+          </div>
+        )}
+
+        {isLocked && (
+          <div className="penalty-bar-track">
+            <div key={penaltyKey} className="penalty-bar-fill" />
           </div>
         )}
 

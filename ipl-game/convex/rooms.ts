@@ -116,6 +116,48 @@ export const get = query({
   },
 });
 
+export const rematch = mutation({
+  args: { roomId: v.id("rooms_v2") },
+  handler: async (ctx, args) => {
+    const room = await ctx.db.get(args.roomId);
+    if (!room) throw new Error("Room not found");
+
+    // Re-generate questions
+    const allPlayers = await ctx.db.query("players").collect();
+    const pool = allPlayers
+      .filter(p => p.teams.length >= 2)
+      .sort((a, b) => b.teams.length - a.teams.length);
+
+    const battlePool = pool.slice(0, 150).sort(() => 0.5 - Math.random()).slice(0, 50);
+
+    const questions = battlePool.map(target => {
+      const similar = allPlayers.filter(p =>
+        p.name !== target.name &&
+        p.role === target.role &&
+        p.batting === target.batting
+      );
+
+      let distractors = similar.sort(() => 0.5 - Math.random()).slice(0, 3);
+      if (distractors.length < 3) {
+        const remaining = allPlayers.filter(p => p.name !== target.name && !distractors.find(d => d.name === p.name));
+        distractors = [...distractors, ...remaining.sort(() => 0.5 - Math.random()).slice(0, 3 - distractors.length)];
+      }
+
+      const options = [target.name, ...distractors.map(d => d.name)].sort();
+      return { playerId: target._id, options };
+    });
+
+    const players = room.players.map(p => ({ ...p, score: 0, ready: false }));
+
+    await ctx.db.patch(args.roomId, {
+      players,
+      status: "waiting",
+      questions,
+      startTime: undefined,
+    });
+  },
+});
+
 export const getById = query({
   args: { roomId: v.id("rooms_v2") },
   handler: async (ctx, args) => {
